@@ -3,6 +3,7 @@ using namespace std;
 const int N=660;
 const int inf = 0x3f3f3f;
 int m, n, start, end;
+int global; 
 int sec[N], e[N][N], dis[N], value[N];
 bool book[N];
 void init()
